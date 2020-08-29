@@ -1,7 +1,6 @@
 # Personal Website
 
-Personal website dengan bahasa HTML, CSS, dan Javascript dasar tanpa
-menggunakan tools atau framework apapun.
+Personal website dengan bahasa HTML, CSS, dan Javascript sederhana.
 
 ## How to Open
 
