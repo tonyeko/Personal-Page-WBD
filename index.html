@@ -1,19 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tony Eko Yuwono</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <div class="app">
-        <div class="wrapper">
-            <img src="images/me.png" alt="tony" class="me">
-            <h1>Hello! <span class="shake">👋</span></h1>
-            <h2>I'm Tony Eko Yuwono</h2>
-        </div>
+  <div class="top-container">
+    <div class="row">
+      <div class="col">
+        <h1>Hello!</h1>
+        <h2>I'm Tony Eko Yuwono</h2>
+      </div>
+      <div class="col">
+        <img class="code-img" src="images/code.svg" alt="code">
+      </div>
     </div>
-    <script src="index.js"></script>
+    <div class="navigator">
+      <a href="#profile" class="scroll-down">
+        <i class="fa fa-chevron-down"></i>
+      </a>
+    </div>
+  </div>
+  <div class="middle-container">
+    <div class="profile" id="profile">
+      <img class="profile-img" src="images/me.png" alt="me-img">
+      <h2>About.</h2>
+      <p class="profile-desc">
+        Hello, my name is <b>Tony</b> Eko Yuwono. I am currently an Informatics Engineering undergraduate at Bandung Institute of
+        Technology. I spent most of my time coding and watching movies.
+      </p>
+    </div>
+    <div class="skills">
+      <h2 style="color: #ffffff;">My Skills.</h2>
+      <div class="row">
+        <div class="col">
+          <img class="skill-img" src="images/algorithm.png" alt="programming">
+          <h3>Programming</h3>
+          <p class="skill-desc">
+            I have learned many algorithms, data structures and programming languages such as:
+            C/C++, Java, Python, Matlab, HTML, CSS, Javascript, Typescript, MySQL
+          </p>
+        </div>
+        <div class="col col-2">
+          <img class="skill-img" src="images/webdev.png" alt="sleeping">
+          <h3>Web Development</h3>
+          <p class="skill-desc">
+            I have learned many frameworks for web development such as:
+            GraphQL, Vue, React, Nuxt, Gatsby, Express, Flask.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love movies as much as I do.</h3>
+      <p class="contact-desc">
+        Love movies as much as I do? Let's talk about that. 
+        Click this button below to contact me!
+      </p>
+      <a href="mailto:tony.yuwono@gmail.com" class="contact-btn">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <div class="social-media">
+      <a href="https://github.com/tonyeko" aria-label="twitter" target="_blank"><i aria-hidden="true" class="fab fa-github social-button">github</i></a>
+      <a href="https://instagram.com/tony.yuwono" target="_blank"><i class="fab fa-instagram social-button">instagram</i></a>
+      <a href="https://facebook.com/tonyekoyuwono" target="_blank"><i class="fab fa-facebook-f social-button">facebook</i></a>
+    </div>
+    <p class="copyright">© 2020 Tony Eko Yuwono</p>
+  </div>
+  <script src="index.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.js"
+    integrity="sha256-EhSd26A4BBY7cx1qenrGNmgTke2gzkGS0HDPmLVVQ6w=" crossorigin="anonymous"></script>
 </body>
+
 </html>
